@@ -1,0 +1,22 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+import seaborn as sns
+from sklearn import preprocessing
+
+# setting max display column limit to 30
+pd.set_option("display.max_columns", 30)
+
+import warnings
+warnings.filterwarnings('ignore')
+from numpy import math
+from datetime import datetime
+#Importing Libraries
+
+from sklearn.metrics import silhouette_score
+from sklearn.datasets import make_blobs
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_samples, silhouette_score
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
